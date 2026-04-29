@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <h2>🧾 Medical Profile</h2>
+  <div id="data"></div>
+</div>
+
+<script>
+const data = JSON.parse(localStorage.getItem("medicalData"));
+
+if (data) {
+  document.getElementById("data").innerHTML = `
+    <p><b>Name:</b> ${data.name}</p>
+    <p><b>Age:</b> ${data.age}</p>
+    <p><b>Blood:</b> ${data.blood}</p>
+    <p><b>Contact:</b> ${data.contact}</p>
+    <p><b>Disease:</b> ${data.disease}</p>
+  `;
+} else {
+  document.getElementById("data").innerHTML = "No Data Found";
+}
+</script>
+
+</body>
+</html>
