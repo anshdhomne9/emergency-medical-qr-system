@@ -1,4 +1,4 @@
-#emergency-medical-qr-system
+Emergency-medical-qr-system
 
 🚑 Emergency Medical QR System
 
