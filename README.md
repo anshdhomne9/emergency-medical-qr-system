@@ -1,5 +1,3 @@
-Emergency-medical-qr-system
-
 🚑 Emergency Medical QR System
 
 A web-based system to store and access medical data using QR codes.
@@ -27,5 +25,5 @@ A web-based system to store and access medical data using QR codes.
 - Real QR Scanner
 - Database (MongoDB)
 
-👨‍💻 Author
-Gurvesh Dhomne
+Deployment link
+https://emergency-medical-qr-system-95ut6eg4c-anshdhomne9s-projects.vercel.app/
